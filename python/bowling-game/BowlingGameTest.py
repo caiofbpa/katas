@@ -20,7 +20,7 @@ class BowlingGameTest(unittest.TestCase):
 		self.rollMany(0, 20)
 		self.assertEqual(0, self.game.get_score())
 
-	def test_onePoint(self):
+	def test_onePin(self):
 		self.rollMany(1, 20)
 		self.assertEqual(20, self.game.get_score())
 
